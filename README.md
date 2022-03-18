@@ -17,6 +17,27 @@ El objetivo de este proyecto final es implementar una API REST en el marco de la
 - [Spring](https://spring.io/) - Java Framework
 
 
+## Autenticación
+
+Para obtener el token de autenticación se debe logear al sistema por la siguiente URL: **/auth/login** con alguna de las siguientes credenciales:
+* AGENT: 
+    * username: agent
+    * password: agent
+* BUYER:
+    * username: buyer
+    * password: buyer
+
+### Login
+
+![](resources/auth/2.png)
+
+Para poder consultar cada **End point** se debe suministrar el token de autenticación en cada petición que se realice al servidor.
+
+Si se realizan peticiones mediante algun cliente HTTP de pruebas como POSTMAN se debe ingresar el token en la parte de "Authorization" seleccionando el tipo "Bearer Token" en el recuadro que aparece al lado derecho se ingresa el token de autenticación.
+
+### Enviar token de auntenticación
+
+![](resources/auth/1.png)
 ## Recursos - END POINTS
 ### US 0001: 
 Ingresar un lote de productos a warehouse de fulfillment para registrar la existencia de stock.
@@ -122,13 +143,13 @@ Response:
 ![](resources/us5/3.png)
 
 
-## Acknowledgements
+## Agradecimientos
 
  - [Digital House](https://www.digitalhouse.com/)
  - El equipo de Playground por su apoyo en cada pregunta e inconveniente que se nos presentó durante la contrucción de esta API.
  - Johanna Tabella, por su orientación y guía durante la planeación y construcción de la API.
  - A todos aquellos compañeros que nos brindaron una mano cuando más la necesitamos.
-## Authors
+## Autores
 - Daniel Hernandez - [@dhernandezoy](https://www.github.com/dhernandezoy)
 - Eduard Jimenez - [@edujimenez21](https://www.github.com/edujimenez21)
 - Felipe Moreno - [@felmorenoo](https://www.github.com/felmorenoo)
