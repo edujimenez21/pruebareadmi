@@ -18,33 +18,116 @@ El objetivo de este proyecto final es implementar una API REST en el marco de la
 
 
 ## Recursos - END POINTS
-* US 0001: 
+### US 0001: 
 Ingresar un lote de productos a warehouse de fulfillment para registrar la existencia de stock.
 
 
 Historia de usuario:
 
-![](resources/1.png)
+![](resources/us1/1.png)
 
 Metodos:
 
-![](resources/2.png)
+![](resources/us1/2.png)
 
 Request:
 
-![](resources/3.png)
+![](resources/us1/3.png)
 
 Response:
 
-![](resources/4.png)
+![](resources/us1/4.png)
+
+
+### US 0002:
+
+Registrar Venta: Agregar producto al carrito de compras
+
+
+
+Historia de usuario:
+
+![](resources/us2/1.png)
+
+Metodos:
+
+![](resources/us2/2.png)
+
+Request:
+
+![](resources/us2/3.png)
+
+Response:
+
+![](resources/us2/4.png)
+
+
+
+### US 0003:
+
+Consultar ubicación de un producto en el warehouse
+
+
+Historia de usuario:
+
+![](resources/us3/1.png)
+
+Metodos:
+
+![](resources/us3/2.png)
+
+Response:
+
+![](resources/us3/3.png)
+
+
+
+### US 0004:
+
+Consultar el stock de un producto en todos los warehouses
+
+
+
+Historia de usuario:
+
+![](resources/us4/1.png)
+
+Metodos:
+
+![](resources/us4/2.png)
+
+
+Response:
+
+![](resources/us4/3.png)
+
+
+
+### US 0005:
+
+Consultar fecha de vencimiento por lote
+
+
+Historia de usuario:
+
+![](resources/us5/1.png)
+
+Metodos:
+
+![](resources/us5/2.png)
+
+
+Response:
+
+![](resources/us5/3.png)
 
 
 ## Acknowledgements
 
  - [Digital House](https://www.digitalhouse.com/)
- - Playground team for their support in every question and explanation to develop this API.
- - [Ricardo Zaragoza](https://github.com/richyz9) - For his feedback to complete this API.
-
+ - El equipo de Playground por su apoyo en cada pregunta e inconveniente que se nos presentó durante la contrucción de esta API.
+ - Johanna Tabella, por su orientación y guía durante la planeación y construcción de la API.
+ - A todos aquellos compañeros que nos brindaron una mano cuando más la necesitamos.
 ## Authors
 - Daniel Hernandez - [@dhernandezoy](https://www.github.com/dhernandezoy)
 - Eduard Jimenez - [@edujimenez21](https://www.github.com/edujimenez21)
